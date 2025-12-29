@@ -630,7 +630,7 @@ bp
   .folder("items")
   .file(
     `${safeName}.json`,
-    JSON.stringify(playerEntity, null, 2)
+    JSON.stringify(itemJson, null, 2)
   );
  
 });  
