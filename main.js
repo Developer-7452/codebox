@@ -709,15 +709,6 @@ const playerBP = {
     }
   }
 };
-    events: {
-      "test:pop": {
-        queue_command: {
-          command: "scriptevent totem:pop"
-        }
-      }
-    }
-  }
-};
 
 bp
   .folder("entities")
